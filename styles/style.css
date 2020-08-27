@@ -32,6 +32,8 @@ body {
 
 img {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
 .accent,
@@ -156,8 +158,10 @@ img {
 	text-align: center;
 }
 
-.hero .container {
+.hero-container {
 	max-width: 696px;
+	margin-right: auto;
+	margin: auto;
 }
 
 .hero-title {
